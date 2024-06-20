@@ -34,9 +34,7 @@ def load_signsuisse(directory_path: str) -> List[Dict[str, str]]:
     from sign_language_datasets.datasets.config import SignDatasetConfig
 
     IANA_TAGS = {
-        "ch-de": "sgg",
-        "ch-fr": "ssr",
-        "ch-it": "slf",
+        "ch-en": "ase",
     }
 
     # for cache busting, we use today's date
