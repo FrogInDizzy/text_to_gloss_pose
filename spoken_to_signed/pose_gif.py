@@ -15,7 +15,7 @@ from rich import print
 from PIL import Image
 
 # Open and read the pose file
-pose_file_path = "/Users/wenyaogao/Desktop/quick_test.pose"
+pose_file_path = "/Volumes/Untitled/video2.pose"
 with open(pose_file_path, "rb") as f:
     p = Pose.read(f.read())
 
@@ -26,7 +26,7 @@ p.header.dimensions.height = int(p.header.dimensions.height / scale)
 p.body.data = p.body.data / scale
 
 # Generate .gif
-gif_path = "/Users/wenyaogao/Desktop/quick_test.gif"
+gif_path = "/Users/wenyaogao/Desktop/video.gif"
 v = PoseVisualizer(p)
 v.save_gif(gif_path, v.draw())
 
