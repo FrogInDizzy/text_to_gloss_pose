@@ -26,7 +26,7 @@ p.header.dimensions.height = int(p.header.dimensions.height / scale)
 p.body.data = p.body.data / scale
 
 # Generate .gif
-gif_path = "/Users/wenyaogao/Desktop/video.gif"
+gif_path = "/Users/wenyaogao/Desktop/video1.gif"
 v = PoseVisualizer(p)
 v.save_gif(gif_path, v.draw())
 
