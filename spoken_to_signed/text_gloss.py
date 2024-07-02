@@ -13,7 +13,7 @@ from openai import OpenAI
 
 client = OpenAI(
 
-    api_key="sk-proj-LxuJ9wenbBaqqHgsaGcTT3BlbkFJxvJbi38AcJxCagpf1KcJ"
+    api_key="sk-proj-"
 )
 
 
