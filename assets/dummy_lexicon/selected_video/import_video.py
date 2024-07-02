@@ -36,9 +36,9 @@ for english_word, video_id in selected_dict.items():
     target_video_name = f'{english_word}.mp4'
     target_video_path = os.path.join(target_directory, target_video_name)
 
-    # 检查源视频文件是否存在
+    # check if original file exist
     if os.path.exists(source_video_path):
-        # 复制并重命名视频文件
+        # copy and rename the file
         shutil.copy2(source_video_path, target_video_path)
         print(f'Successfully copied {source_video_path} to {target_video_path}')
     else:

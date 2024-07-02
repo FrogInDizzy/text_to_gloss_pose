@@ -14,7 +14,7 @@ import os
 import shutil
 
 # 定义文件路径
-source_directory = '/Users/wenyaogao/Desktop/123/pose'  # 源文件夹路径
+source_directory = '/Users/wenyaogao/Desktop/123/pose'
 pose_directory = '/Users/wenyaogao/PycharmProjects/spoken-to-signed-translation/assets/dummy_lexicon/sgg'  # 存放.pose文件的目标文件夹路径
 mp4_directory = '/Users/wenyaogao/Desktop/123/video'  # 存放.mp4文件的目标文件夹路径
 

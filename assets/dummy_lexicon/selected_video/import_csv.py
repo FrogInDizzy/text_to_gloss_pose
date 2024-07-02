@@ -44,7 +44,7 @@ for filename in os.listdir(source_directory):
         ]
         csv_rows.append(new_row)
 
-# 将更新后的内容写回CSV文件
+# update with new content
 with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(csv_rows)
