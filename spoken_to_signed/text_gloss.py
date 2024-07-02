@@ -13,7 +13,7 @@ from openai import OpenAI
 
 client = OpenAI(
 
-    api_key="sk-proj-"
+    api_key="sk-proj-LxuJ9wenbBaqqHgsaGcTT3BlbkFJxvJbi38AcJxCagpf1KcJ"
 )
 
 
@@ -75,6 +75,6 @@ def correct_ocr_text(user_input_text):
     return corrected_input
 
 
-user_input = "Tomorrow, she will go to the beach with her friends."
+user_input = "Wind blows through car."
 corrected_text = correct_ocr_text(user_input)
 print(corrected_text)
